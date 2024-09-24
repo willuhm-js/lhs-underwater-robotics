@@ -7,6 +7,11 @@
 			<a href="https://www.instagram.com/ltowndst/" target="_blank" rel="noreferrer">
 				<img src="/icons/instagram.svg" alt="instagram" />
 			</a>
+
+			<a href="https://github.com/deep-sea-tactics" target="_blank" rel="noreferrer">
+				<img src="/icons/github.svg" alt="github" />
+			</a>
+
 			<a
 				href="https://www.facebook.com/landstown.deepseatactics.1/ "
 				target="_blank"
