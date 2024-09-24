@@ -35,7 +35,7 @@
 				{/if}
 			</div>
 		{:else}
-		<div class="reversedHeader">
+		<div class="reversedHeader"><img src="/icons/instagram.svg" alt="instagram" class="svelte-1mf593o">
 			<div class="header">
 				<h3>{header}</h3>
 				<hr style="background-color: {color};" />
