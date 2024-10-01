@@ -15,7 +15,7 @@
 	<div />
 	<div class="title">
 		<h1>
-			Innovation with an <span class="water">aquatic</span> edge
+			Innovation with an <span class="water">aquatic</span> edge 
 		</h1>
 	</div>
 
@@ -47,7 +47,7 @@
 		left: 0;
 		width: 100%;
 		height: 50px;
-		background-color: var(--accent);
+		background-color: var(--other);
 		z-index: -1;
 	}
 
@@ -57,6 +57,7 @@
 		justify-content: space-between;
 		height: calc(100vh - 112px);
 	}
+
 
 	.title {
 		margin-left: auto;
@@ -72,10 +73,11 @@
 		max-width: 800px;
 		font-size: 5rem;
 		font-weight: 700;
+		height: 350px;
 	}
 
 	.water {
-		background: linear-gradient(to right, #0151c1, var(--accent));
+		background: linear-gradient(to right, #caeeff, var(--accent));
 		background-clip: text;
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
@@ -116,7 +118,7 @@
 	}
 
 	img:hover {
-		scale: 0.975;
+		scale: 1.045;
 	}
 
 	@keyframes slideshow {

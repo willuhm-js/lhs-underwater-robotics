@@ -36,6 +36,7 @@
 	:global(body) {
 		--bg: #18181b;
 		--accent: #3b82f6;
+		--other: #3b83f644;
 		--text: #f1f1f1;
 
 		margin: 0px;
@@ -59,8 +60,8 @@
 		list-style: none;
 		display: flex;
 		flex-direction: row;
-		gap: 2rem;
-		margin: 0px;
+		gap: 3rem;
+		margin: 10px;
 	}
 
 	nav {
@@ -85,7 +86,7 @@
 	}
 
 	img:hover {
-		scale: 0.97;
+		scale: 1.045;
 	}
 
 	a {
@@ -96,6 +97,7 @@
 	a:hover {
 		color: var(--accent);
 	}
+	
 	.mainLink {
 		height: 80px;
 	}
