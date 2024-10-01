@@ -62,7 +62,7 @@
 
 <div aria-hidden="true">
 	<Canvas autoplay>
-		<Layer {render} />
+
 	</Canvas>
 </div>
 
