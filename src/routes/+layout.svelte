@@ -29,6 +29,10 @@
 		out:fly={{ easing: cubicIn, y: -10, duration: 300 }}
 	>
 		<slot />
+
+		<footer>
+			© Deep Sea Tactics 2024
+		  </footer>
 	</div>
 {/key}
 
@@ -44,6 +48,12 @@
 		background-color: var(--bg);
 		color: var(--text);
 		height: 100vh;
+	}
+
+	footer {
+    	flex: 0 0 auto;
+		padding: 2rem;
+		background: var(--accent);
 	}
 
 	.container {
