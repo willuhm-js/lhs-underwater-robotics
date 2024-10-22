@@ -2,13 +2,17 @@
 	import '@fontsource/poppins/400.css';
 	import '@fontsource/poppins/500.css';
 	import '@fontsource/poppins/700.css';
+	import TwitterIcon from '~icons/devicon/twitter';
+	import InstagramIcon from '~icons/mdi/instagram';
+	
 	import Cursor from './Cursor.svelte';
 	import { fly } from 'svelte/transition';
 	import { cubicIn, cubicOut } from 'svelte/easing';
 
 	export let data;
+	
 </script>
-
+	
 <nav>
 	<a href="/" class="mainLink">
 		<img src="/horizontal_logo.png" alt="Deep Sea Tactics Logo" />
@@ -31,7 +35,13 @@
 		<slot />
 
 		<footer>
-			© Deep Sea Tactics 2024
+			© Deep Sea Tactics 2024 
+			<TwitterIcon>
+
+			</TwitterIcon>
+			<InstagramIcon>
+				
+			</InstagramIcon>
 		  </footer>
 	</div>
 {/key}

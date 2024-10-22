@@ -7,33 +7,7 @@
 	}
 
 	const sponsorCategories: SponsorCategory[] = [
-		{
-			name: 'Diamond Sponsors',
-			money: 5000,
-			color: '#3B82F6'
-		},
-		{
-			name: 'Gold Sponsors',
-			money: 2500,
-			color: '#E8C547'
-		},
-		{
-			name: 'Silver Spnsors',
-			money: 1000,
-			color: '#C2DFE3',
-			textColor: 'black'
-		},
-		{
-			name: 'Bronze Sponsors',
-			money: 500,
-			color: '#FC7753'
-			// #FC7753
-		},
-		{
-			name: 'Honorable Mentions',
-			money: 100,
-			color: '#717568'
-		}
+		//planning to remake this entire page
 	];
 </script>
 
