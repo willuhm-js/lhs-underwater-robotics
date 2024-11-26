@@ -36,12 +36,18 @@
 
 		<footer>
 			© Deep Sea Tactics 2024 
-			<TwitterIcon>
 
-			</TwitterIcon>
-			<InstagramIcon>
+			<div id="footicon">
+				<a href="https://x.com/lhsdeepsea?s=21&t=e3somFF=4PutdOpPtcz0bw">
+					<TwitterIcon></TwitterIcon>
+				</a>
+				<a href="https://www.instagram.com/lhs_deepsea_tactics?igsh=cjY5OWk0MzF4cHM0">
+					<InstagramIcon></InstagramIcon>
+				</a>
 				
-			</InstagramIcon>
+
+			</div>
+			
 		  </footer>
 	</div>
 {/key}
@@ -60,10 +66,23 @@
 		height: 100vh;
 	}
 
+	#footicon {
+
+		display:inline;
+		float:right;
+
+		filter: brightness(0) invert(1);
+
+	}
+
 	footer {
+
     	flex: 0 0 auto;
 		padding: 2rem;
 		background: var(--accent);
+
+		position: relative;
+
 	}
 
 	.container {

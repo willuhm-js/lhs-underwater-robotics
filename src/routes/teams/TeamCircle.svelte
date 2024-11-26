@@ -17,7 +17,7 @@
 
 	let rotation = tweened(0, { duration: 300, easing: sineOut });
 
-	$: desiredRotation = spinning ? $rotation + 5.2 : null;
+	$: desiredRotation = spinning ? $rotation + 1.2 : null;
 	$: desiredRotation && rotation.set(desiredRotation);
 
 	onDestroy(() => {
@@ -59,11 +59,11 @@
 <style lang="scss">
 	a {
 		position: relative;
-		margin: 1rem;
+		margin: 0.4rem;
 		border: 5px solid var(--bg);
 		border-radius: 50%;
-		max-width: 310px;
-		min-width: 310px;
+		max-width: 280px;
+		min-width: 280px;
 		aspect-ratio: 1 / 1;
 	}
 
@@ -110,14 +110,14 @@
 		z-index: -2;
 		user-select: none;
 		pointer-events: none;
-		top: 0;
+		top: 0121s;
 		left: 0;
 		filter: brightness(0.5);
 		aspect-ratio: 1 / 1;
 		object-fit: cover;
 		clip-path: circle(50%);
 		opacity: 0.3;
-		transform: scale(1);
+		transform: scale(0.85);
 		transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
 	}
 

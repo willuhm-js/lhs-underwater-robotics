@@ -1,4 +1,5 @@
 <script lang="ts">
+
 	interface Image {
 		src: string;
 		width: number;
@@ -10,6 +11,9 @@
 
 	$: widthSum = images.reduce((acc, cur) => acc + cur.width, 0);
 </script>
+
+	
+
 
 <header>
 	<div />
@@ -36,9 +40,6 @@
 	</div>
 	<div class="bottom" />
 </header>
-<main>
-	<h2>We push the boundaries of marine innovation.</h2>
-</main>
 
 <style>
 	.bottom {
@@ -58,6 +59,31 @@
 		height: calc(100vh - 112px);
 	}
 
+	.imgPopup {
+	display: none; 
+	position: fixed;
+	z-index: 1;
+	padding-top: 100px; 
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%; 
+	overflow: auto; 
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0,0.9);
+	}
+
+	.modal-content {
+	margin: auto;
+	display: block;
+	width: 80%;
+	max-width: 700px;
+	}
+
+	@keyframes zoom {
+	from {transform:scale(0)}
+	to {transform:scale(1)}
+	}
 
 	.title {
 		margin-left: auto;
@@ -98,11 +124,16 @@
 		margin: 1rem;
 	}
 
+	.image:active {
+		
+	}
+
 	.image {
 		width: 100%;
 		display: flex;
 		align-items: center;
 		justify-content: center;
+		cursor: pointer;
 	}
 
 	img {
